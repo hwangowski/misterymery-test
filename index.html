@@ -11,7 +11,7 @@
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
+        <div id="mery-loading"></div>
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
         </div>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Pixel Gogo Adventures</div>
+        <div id="unity-build-title">Mistery Mery</div>
       </div>
     </div>
     <script>
@@ -57,14 +57,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Template.loader.js";
+      var loaderUrl = buildUrl + "/MenuTest.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Template.data",
-        frameworkUrl: buildUrl + "/Template.framework.js",
-        codeUrl: buildUrl + "/Template.wasm",
+        dataUrl: buildUrl + "/MenuTest.data",
+        frameworkUrl: buildUrl + "/MenuTest.framework.js",
+        codeUrl: buildUrl + "/MenuTest.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Hwangowski",
-        productName: "Mistery Mery - Chapter 1",
+        productName: "Mistery Mery - Test",
         productVersion: "0.1",
         showBanner: unityShowBanner,
       };
